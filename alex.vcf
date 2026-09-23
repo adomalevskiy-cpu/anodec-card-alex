@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Stitsey;Alexander;;;
+FN:Alexander Stitsey
+ORG:ANODEC AI LLC
+TITLE:CEO & Co-founder
+TEL;TYPE=CELL,VOICE:+998907954448
+TEL;TYPE=WORK,VOICE:+79055925252
+EMAIL;TYPE=INTERNET,WORK:a.stitsey@anodec.ai
+URL:https://anodec.ai
+ADR;TYPE=WORK:;;;Tashkent;;;Uzbekistan
+NOTE:ArrivalTech: B2B software for luxury travel agencies and DMCs. Built i
+ n Tashkent.
+X-SOCIALPROFILE;TYPE=telegram:https://t.me/primary_source
+item1.URL:https://alex.anodec.ai
+item1.X-ABLabel:Digital card
+REV:2026-09-23T00:00:00Z
+END:VCARD

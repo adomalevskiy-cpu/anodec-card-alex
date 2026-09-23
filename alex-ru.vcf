@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Стицей;Александр;;;
+FN:Александр Стицей
+ORG:ООО «ANODEC AI»
+TITLE:Генеральный директор\, сооснователь
+TEL;TYPE=CELL,VOICE:+998907954448
+TEL;TYPE=WORK,VOICE:+79055925252
+EMAIL;TYPE=INTERNET,WORK:a.stitsey@anodec.ai
+URL:https://anodec.ai
+ADR;TYPE=WORK:;;;Ташкент;;;Узбекистан
+NOTE:ArrivalTech: софт для luxury-турагентств и DMC. Д
+ елаем в Ташкенте.
+X-SOCIALPROFILE;TYPE=telegram:https://t.me/primary_source
+item1.URL:https://alex.anodec.ai
+item1.X-ABLabel:Цифровая визитка
+REV:2026-09-23T00:00:00Z
+END:VCARD

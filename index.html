@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Alexander Stitsey | ANODEC AI</title>
+<meta name="description" content="AI agents for luxury travel operators. Tap to save the contact.">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F4EFE6">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/inter-latin-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="ANODEC AI">
+<meta property="og:url" content="https://alex.anodec.ai">
+<meta property="og:title" content="Alexander Stitsey — CEO, ANODEC AI">
+<meta property="og:description" content="AI agents for luxury travel operators. Tap to save the contact.">
+<meta property="og:image" content="https://alex.anodec.ai/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Alexander Stitsey, CEO and co-founder of ANODEC AI">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alexander Stitsey — CEO, ANODEC AI">
+<meta name="twitter:description" content="AI agents for luxury travel operators. Tap to save the contact.">
+<meta name="twitter:image" content="https://alex.anodec.ai/og.png">
+<style>@font-face{font-family:"Inter";src:url(fonts/inter-latin-cyrillic.woff2) format("woff2");font-weight:350 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces-latin.woff2) format("woff2");font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-cyrillic.woff2) format("woff2");font-weight:500;font-style:normal;unicode-range:U+0400-045F,U+0490-0491;font-display:swap}
+*,*::before,*::after{box-sizing:border-box}
+:root{--bg:#F4EFE6;--surface:#EFE7D6;--text:#1A1714;--muted:#64605B;--line:#7C7872;--hair:#DAD5CD;--accent:#C8A96A;--on-accent:#1A1714;--dark:#050505;--on-dark:#EDE6D8;
+--gold-12:rgba(200,169,106,.12);--edge-gold:rgba(200,169,106,.35);--ink-04:rgba(26,23,20,.045);
+--radius:18px;--r-shell:25px;--pad:22px;--hdr:60px;
+--shadow-soft:0 1px 2px rgba(26,23,20,.06),0 28px 64px -28px rgba(26,23,20,.34);
+--bez:cubic-bezier(.32,.72,0,1);--ease-quiet:cubic-bezier(.4,0,.2,1);
+--font-display:"Fraunces","Source Serif 4",Georgia,serif;
+--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif}
+html{-webkit-text-size-adjust:100%;font-optical-sizing:auto}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:inherit}
+.wrap{max-width:520px;margin:0 auto;padding:0 var(--pad)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:var(--hdr);padding-top:env(safe-area-inset-top)}
+.mark{display:flex;align-items:center;gap:10px;text-decoration:none;font:600 15px/1 var(--font-display);letter-spacing:.1em;white-space:nowrap;color:var(--text)}
+.chipmark{width:38px;height:38px;border-radius:50%;flex:none;background:var(--dark);border:1px solid var(--edge-gold);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.chipmark img{width:20px;height:auto;display:block}
+.hero{min-height:calc(100vh - var(--hdr) - 180px);display:flex;flex-direction:column;justify-content:center;padding:14px 0 18px}
+@supports (height:100svh){.hero{min-height:calc(100svh - var(--hdr) - 180px)}}
+h1{font-family:var(--font-display);font-size:clamp(34px,9.6vw,44px);line-height:1.05;letter-spacing:-.01em;font-weight:500;margin:0;text-wrap:balance}
+.role{margin:14px 0 0;font-size:16px;font-weight:500;color:var(--text)}
+.org{margin:8px 0 0;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.rule{border:0;margin:22px 0 0;width:88px;height:2px;background:var(--accent)}
+.tag{margin:18px 0 0;font-size:15px;color:var(--muted);max-width:21em}
+.actions{margin-top:32px;width:100%;display:grid;gap:12px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:52px;padding:8px 8px 8px 26px;border-radius:999px;font:600 16px/1 var(--font-body);text-decoration:none;border:1px solid transparent}
+.btn .chip{width:36px;height:36px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center}
+.btn .chip svg{width:14px;height:14px;fill:none;stroke-width:1.6}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-primary .chip{background:rgba(26,23,20,.12)}
+.btn-primary .chip svg{stroke:var(--on-accent)}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--line)}
+.btn-ghost .chip{border:1px solid var(--line)}
+.btn-ghost .chip svg{stroke:var(--text)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--text);outline-offset:3px;box-shadow:0 0 0 5px rgba(200,169,106,.55)}
+section.block{padding:30px 0 4px}
+section.block h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 14px}
+.shell{background:var(--ink-04);border:1px solid var(--hair);border-radius:var(--r-shell);padding:7px;margin:0 -14px}
+.core{background:var(--surface);border-radius:var(--radius);padding:0 16px;box-shadow:var(--shadow-soft)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;padding:12px 0;border-bottom:1px solid var(--hair);text-decoration:none}
+.row:last-child{border-bottom:0}
+.row-l{font-size:14px;color:var(--muted);flex:1 1 auto;min-width:0;overflow-wrap:break-word}
+.row-v{font-size:16px;text-align:right;white-space:nowrap;flex:0 0 auto;font-variant-numeric:tabular-nums}
+.row-v.breakable{white-space:normal;overflow-wrap:break-word}
+.lead{margin:0;font-size:16px}
+.points{margin:22px 0 0}
+.point{padding:15px 0;border-top:1px solid var(--hair)}
+.point-k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--text);font-weight:600;margin:0}
+.point-v{margin:7px 0 0;font-size:15px;color:var(--muted)}
+footer{border-top:1px solid var(--hair);padding:26px var(--pad) calc(36px + env(safe-area-inset-bottom));max-width:520px;margin:34px auto 0}
+footer p{margin:0 0 6px;font-size:13px;color:var(--muted)}
+.langs{display:flex;gap:1px;border:1px solid var(--hair);border-radius:999px;padding:2px;background:transparent}
+.langs button{min-width:34px;min-height:44px;padding:0 4px;background:transparent;border:0;border-radius:999px;color:var(--muted);font:600 12px/1 var(--font-body);letter-spacing:.06em;cursor:pointer}
+.langs button.on{background:rgba(255,255,255,.7);color:var(--text);box-shadow:0 1px 2px rgba(26,23,20,.07)}
+.langs-foot{margin-top:18px;width:max-content}
+@media (min-width:460px){.actions{grid-template-columns:1fr 1fr}}
+@media (prefers-reduced-motion:no-preference){
+.btn{transition:transform .6s var(--bez),box-shadow .6s var(--bez),background .4s var(--bez),border-color .4s var(--bez)}
+.btn .chip{transition:transform .6s var(--bez)}
+.langs button{transition:color 150ms var(--ease-quiet),background 150ms var(--ease-quiet)}
+.btn:active{transform:scale(.98)}}
+@media (hover:hover){
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 40px -16px rgba(200,169,106,.6)}
+.btn-ghost:hover{background:var(--gold-12)}
+.btn:hover .chip{transform:translate(2px,-2px)}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="topbar">
+<a class="mark" href="https://anodec.ai" rel="noopener" aria-label="ANODEC AI"><span class="chipmark"><img src="logo-mark.png" width="160" height="156" alt=""></span><span>ANODEC AI</span></a>
+<div class="langs langs-top" role="group" aria-label="Choose language"><button type="button" data-lang="en" class="on" aria-current="true" lang="en">EN</button><button type="button" data-lang="ru" lang="ru">RU</button><button type="button" data-lang="uz" lang="uz">UZ</button></div>
+</header>
+<section class="hero">
+<h1 data-i18n="name">Alexander Stitsey</h1>
+<p class="role" data-i18n="role">CEO &amp; Co-founder</p>
+<p class="org" data-i18n="company">ANODEC AI LLC</p>
+<hr class="rule">
+<p class="tag" data-i18n="tagline">AI agents for luxury travel operators</p>
+<div class="actions">
+<a class="btn btn-primary" id="save" href="/alex.vcf"><span data-i18n="btn_save">Save contact</span><span class="chip"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v11M3.5 8.5 8 13l4.5-4.5"/></svg></span></a>
+<a class="btn btn-ghost" href="https://t.me/primary_source" rel="noopener"><span data-i18n="btn_message">Message</span><span class="chip"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7"/></svg></span></a>
+</div>
+</section>
+<section class="block" aria-labelledby="h-contacts">
+<h2 id="h-contacts" class="sr-only" data-i18n="contacts_heading">Contacts</h2>
+<div class="shell"><div class="core">
+<a class="row" href="tel:+998907954448"><span data-i18n="phone_uz_label" class="row-l">Phone, Uzbekistan</span><span data-i18n="phone_uz_value" class="row-v">+998 90 795-44-48</span></a>
+<a class="row" href="tel:+79055925252"><span data-i18n="phone_ru_label" class="row-l">Phone, Russia</span><span data-i18n="phone_ru_value" class="row-v">+7 905 592-52-52</span></a>
+<a class="row" href="https://t.me/primary_source" rel="noopener"><span data-i18n="telegram_label" class="row-l">Telegram</span><span data-i18n="telegram_value" class="row-v breakable">@primary_source</span></a>
+<a class="row" href="mailto:a.stitsey@anodec.ai"><span data-i18n="email_label" class="row-l">E-mail</span><span data-i18n="email_value" class="row-v breakable">a.stitsey@anodec.ai</span></a>
+</div></div>
+</section>
+<section class="block" aria-labelledby="h-about">
+<h2 id="h-about" data-i18n="about_heading">About</h2>
+<p class="lead" data-i18n="about">ANODEC AI builds ArrivalTech, B2B software for luxury travel agencies and DMCs: voice notes, a white-label CRM, a partner portal, a Telegram mini app. We work out of Tashkent. The first pilot is running.</p>
+<div class="points"><div class="point"><p class="point-k" data-i18n="point1_label">Product</p><p class="point-v" data-i18n="point1_text">ArrivalTech, a B2B SaaS platform for luxury travel agencies and DMCs. Pilot in progress.</p></div><div class="point"><p class="point-k" data-i18n="point2_label">Markets</p><p class="point-v" data-i18n="point2_text">Uzbekistan now. Kazakhstan and Kyrgyzstan next. Then the UAE and Saudi Arabia.</p></div><div class="point"><p class="point-k" data-i18n="point3_label">Looking for</p><p class="point-v" data-i18n="point3_text">Agencies and DMCs to pilot with, and partners across the region. Open to strategic investors.</p></div></div>
+</section>
+<section class="block" aria-labelledby="h-links">
+<h2 id="h-links" data-i18n="links_heading">Links</h2>
+<div class="shell"><div class="core">
+<a class="row" href="https://anodec.ai" rel="noopener"><span data-i18n="link_site_label" class="row-l">Company site</span><span data-i18n="link_site_value" class="row-v breakable">anodec.ai</span></a>
+</div></div>
+</section>
+</main>
+<footer>
+<p data-i18n="footer_legal">ANODEC AI LLC, Tashkent, Uzbekistan</p>
+<p data-i18n="footer_privacy">No cookies, no trackers, no analytics.</p>
+<div class="langs langs-foot" role="group" aria-label="Choose language"><button type="button" data-lang="en" class="on" aria-current="true" lang="en">EN</button><button type="button" data-lang="ru" lang="ru">RU</button><button type="button" data-lang="uz" lang="uz">UZ</button></div>
+</footer>
+<script id="card-data" type="application/json">{"meta":{"default_lang":"en","languages":["en","ru","uz"]},"contact":{"vcf":{"en":"/alex.vcf","ru":"/alex-ru.vcf","uz":"/alex.vcf"}},"i18n":{"en":{"lang_code":"en","lang_label":"EN","lang_name":"English","title":"Alexander Stitsey | ANODEC AI","og_title":"Alexander Stitsey — CEO, ANODEC AI","og_description":"AI agents for luxury travel operators. Tap to save the contact.","name":"Alexander Stitsey","role":"CEO & Co-founder","company":"ANODEC AI LLC","tagline":"AI agents for luxury travel operators","btn_save":"Save contact","btn_message":"Message","contacts_heading":"Contacts","phone_uz_label":"Phone, Uzbekistan","phone_uz_value":"+998 90 795-44-48","phone_ru_label":"Phone, Russia","phone_ru_value":"+7 905 592-52-52","telegram_label":"Telegram","telegram_value":"@primary_source","email_label":"E-mail","email_value":"a.stitsey@anodec.ai","about_heading":"About","about":"ANODEC AI builds ArrivalTech, B2B software for luxury travel agencies and DMCs: voice notes, a white-label CRM, a partner portal, a Telegram mini app. We work out of Tashkent. The first pilot is running.","point1_label":"Product","point1_text":"ArrivalTech, a B2B SaaS platform for luxury travel agencies and DMCs. Pilot in progress.","point2_label":"Markets","point2_text":"Uzbekistan now. Kazakhstan and Kyrgyzstan next. Then the UAE and Saudi Arabia.","point3_label":"Looking for","point3_text":"Agencies and DMCs to pilot with, and partners across the region. Open to strategic investors.","links_heading":"Links","link_site_label":"Company site","link_site_value":"anodec.ai","footer_legal":"ANODEC AI LLC, Tashkent, Uzbekistan","footer_privacy":"No cookies, no trackers, no analytics.","lang_switch_aria":"Choose language"},"ru":{"lang_code":"ru","lang_label":"RU","lang_name":"Русский","title":"Александр Стицей | ANODEC AI","og_title":"Александр Стицей — CEO, ANODEC AI","og_description":"ИИ-агенты для luxury-туроператоров. Нажмите, чтобы сохранить контакт.","name":"Александр Стицей","role":"Генеральный директор, сооснователь","company":"ООО «ANODEC AI»","tagline":"ИИ-агенты для luxury-туроператоров","btn_save":"Сохранить контакт","btn_message":"Написать","contacts_heading":"Контакты","phone_uz_label":"Телефон, Узбекистан","phone_uz_value":"+998 90 795-44-48","phone_ru_label":"Телефон, Россия","phone_ru_value":"+7 905 592-52-52","telegram_label":"Telegram","telegram_value":"@primary_source","email_label":"Почта","email_value":"a.stitsey@anodec.ai","about_heading":"О компании","about":"ANODEC AI делает ArrivalTech: софт для luxury-турагентств и DMC. Голосовые заметки, white-label CRM, партнёрский портал, Telegram-мини-апп. Работаем из Ташкента, первый пилот идёт.","point1_label":"Продукт","point1_text":"ArrivalTech, B2B-платформа для luxury-турагентств и DMC. Пилот идёт.","point2_label":"Рынки","point2_text":"Сейчас Узбекистан. Дальше Казахстан и Киргизия. Потом ОАЭ и Саудовская Аравия.","point3_label":"Что ищем","point3_text":"Агентства и DMC для пилотов, партнёров по региону. Открыты к стратегическим инвесторам.","links_heading":"Ссылки","link_site_label":"Сайт компании","link_site_value":"anodec.ai","footer_legal":"ООО «ANODEC AI», Ташкент, Узбекистан","footer_privacy":"Без cookie, трекеров и аналитики.","lang_switch_aria":"Выбрать язык"},"uz":{"lang_code":"uz","lang_label":"UZ","lang_name":"Oʻzbekcha","title":"Aleksandr Stitsey | ANODEC AI","og_title":"Aleksandr Stitsey — ANODEC AI bosh direktori","og_description":"Lyuks sayohat operatorlari uchun AI agentlar. Kontaktni saqlash uchun bosing.","name":"Aleksandr Stitsey","role":"Bosh direktor, hammuassis","company":"«ANODEC AI» MChJ","tagline":"Lyuks sayohat operatorlari uchun AI agentlar","btn_save":"Kontaktni saqlash","btn_message":"Xabar yozish","contacts_heading":"Aloqa","phone_uz_label":"Telefon, Oʻzbekiston","phone_uz_value":"+998 90 795-44-48","phone_ru_label":"Telefon, Rossiya","phone_ru_value":"+7 905 592-52-52","telegram_label":"Telegram","telegram_value":"@primary_source","email_label":"Pochta","email_value":"a.stitsey@anodec.ai","about_heading":"Kompaniya haqida","about":"ANODEC AI ArrivalTech ustida ishlaydi: lyuks sayohat agentliklari va DMC uchun B2B dastur. Ovozli xabarlar, white-label CRM, hamkor portali, Telegram mini-ilovasi. Toshkentda ishlaymiz, birinchi pilot ketmoqda.","point1_label":"Mahsulot","point1_text":"ArrivalTech, lyuks sayohat agentliklari va DMC uchun B2B platforma. Pilot ketmoqda.","point2_label":"Bozorlar","point2_text":"Hozir Oʻzbekiston. Keyin Qozogʻiston va Qirgʻiziston. Soʻngra BAA va Saudiya Arabistoni.","point3_label":"Nima izlayapmiz","point3_text":"Pilot uchun agentliklar va DMC, mintaqadagi hamkorlar. Strategik investorlarga ochiqmiz.","links_heading":"Havolalar","link_site_label":"Kompaniya sayti","link_site_value":"anodec.ai","footer_legal":"«ANODEC AI» MChJ, Toshkent, Oʻzbekiston","footer_privacy":"Cookie, treker va analitika yoʻq.","lang_switch_aria":"Tilni tanlang"}}}</script>
+<script>(function(){
+var el=document.getElementById('card-data');if(!el)return;
+var D=JSON.parse(el.textContent),I=D.i18n,VCF=D.contact.vcf,DEF=D.meta.default_lang,LANGS=D.meta.languages||[],KEY='anodec-card-lang';
+function allowed(l){return typeof l==='string'&&LANGS.indexOf(l)!==-1}
+function stored(){try{return localStorage.getItem(KEY)}catch(e){return null}}
+function pick(){
+  var q=null;try{q=new URLSearchParams(location.search).get('lang')}catch(e){}
+  if(q&&allowed(q))return q;
+  var s=stored();if(s&&allowed(s))return s;
+  var navs=navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||''];
+  for(var i=0;i<navs.length;i++){var p=String(navs[i]).slice(0,2).toLowerCase();
+    if(allowed(p))return p;}
+  return DEF;
+}
+function meta(sel,val){var m=document.querySelector(sel);if(m)m.setAttribute('content',val)}
+function apply(l,remember){
+  if(!allowed(l))return;
+  var t=I[l];if(!t)return;
+  document.documentElement.setAttribute('lang',t.lang_code);
+  document.title=t.title;
+  meta('meta[name="description"]',t.og_description);
+  meta('meta[property="og:title"]',t.og_title);
+  meta('meta[property="og:description"]',t.og_description);
+  meta('meta[name="twitter:title"]',t.og_title);
+  meta('meta[name="twitter:description"]',t.og_description);
+  var nodes=document.querySelectorAll('[data-i18n]');
+  for(var i=0;i<nodes.length;i++){var k=nodes[i].getAttribute('data-i18n');if(t[k]!=null)nodes[i].textContent=t[k];}
+  var save=document.getElementById('save');if(save&&VCF[l])save.setAttribute('href',VCF[l]);
+  var sws=document.querySelectorAll('.langs');
+  for(var s=0;s<sws.length;s++){sws[s].setAttribute('aria-label',t.lang_switch_aria);}
+  var btns=document.querySelectorAll('[data-lang]');
+  for(var j=0;j<btns.length;j++){var on=btns[j].getAttribute('data-lang')===l;
+    btns[j].className=on?'on':'';btns[j].setAttribute('aria-current',on?'true':'false');}
+  if(remember){try{localStorage.setItem(KEY,l)}catch(e){}}
+  try{var u=new URL(location.href);u.searchParams.set('lang',l);
+      history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}
+}
+var btns=document.querySelectorAll('[data-lang]');
+for(var j=0;j<btns.length;j++){(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-lang'),true)})})(btns[j]);}
+apply(pick(),false);
+})();</script>
+</body>
+</html>
